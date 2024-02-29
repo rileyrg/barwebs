@@ -1,0 +1,20 @@
+#location
+{
+    position:absolute;
+    top:1em;
+    right:1em;
+}
+
+#location div
+{
+    width:6em;
+    height:6em;
+    background-image:url(/lib//common-images/location/location.png);
+    background-size:100% 100%;
+    background-repeat:repeat;
+}
+
+.contact #location
+{
+display:none;
+}

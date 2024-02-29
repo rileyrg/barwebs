@@ -1,0 +1,15 @@
+#!/bin/bash 
+source ~/.bashrc
+BARWEBS_DIR="${BARWEBS_DIR:-~/webs}"
+for dir in "${1:-"${BARWEBS_DIR}"}"/*/
+do
+    if [ "$(basename "$dir")" != "template" ]
+    then
+	cd "${dir}"
+	if [ -e "db" ]
+	then
+	    restore-web-database
+	fi
+    fi
+done
+

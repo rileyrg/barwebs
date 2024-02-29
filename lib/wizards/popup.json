@@ -1,0 +1,17 @@
+{
+    "fields" : {
+        "title": {"label": {"en":"PopUp Title?"},"validation":{"minlength":"6","required":""}},
+        "description":{"label": {"en":"PopUp details?"},"validation":{"minlength":"32","required":""}},
+        "cookietimeout": {"label": {"en":"Hide for (days)?"},"value":"99"},
+        "displaydelay": {"label": {"en":"Display Delay (seconds)?"},"value":"10"},
+        "displayfor": {"label": {"en":"Display For (seconds)?"},"value":"20"},
+        "eventlink":{"label": {"en":"PopUp Link"}},
+        "groupby":{"type":"hidden","value":"popup"},
+        "cssclass":{"type":"hidden","value":"iconhalf"},
+        "fpopup":{"type":"hidden","value":"1"},
+        "image":{"value":"","label": {"en":"PopUp Image"},"value":"common-images/icons/popup.png"}
+    },
+    "icon":"common-images/adminmode/wizards/popup.png",
+    "title":{"en":"PopUp"},
+    "description":{"en":"Add a PopUp"}
+}

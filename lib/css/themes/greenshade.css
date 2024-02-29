@@ -1,0 +1,25 @@
+body
+{
+background-color:darkgreen;
+}
+
+.event,.shaded,.barwebs-fblogincontainer
+{
+    background-image:url("/lib/common-images/bg/transparent/white10.png");
+}
+
+.barwebs-fblogincontainer
+{
+    background-image:url("/lib/common-images/bg/transparent/green50.png");
+}
+
+
+.event .title
+{
+    background-image:none;
+}
+
+.centercontainer > .eventgroup > .event > .title
+{
+    background-image:none;
+}

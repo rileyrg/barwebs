@@ -1,0 +1,16 @@
+{
+    "fields" : {
+        "title":{"label": {"en":"Who is boxing?"},"validation":{"minlength":"12","required":""}},
+        "description":{"value":"Big Screen Boxing!","label": {"en":"Fighting for what title?"}},
+        "startdate":{"label": {"en":"Start time?"},"validation":{"required":""}},
+        "duration":{"type":"hidden","value":"0:48"},
+        "category": {"type": "hidden","value": "data-tvsport"},
+        "cssclass":{"type":"hidden","value":"boxing"},
+        "groupby":{"type":"hidden","value":"schedule"},
+        "image":{"validation":{"required":"","type":"url"},"value":"http://","label": {"en":"Fighter's poster"}}
+    },
+    "icon":"common-images/adminmode/wizards/boxing.png",
+    "help":{"url":"http://www.bbc.co.uk/sport/0/boxing/20258155","sample":"e.g Bruno v Tyson"},
+    "title":{"en":"Boxing"},
+    "description":{"en":"Add a new boxing show"}
+}

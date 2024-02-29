@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "setting":{"validation":{"type":"email"},"value":"@contact:email","label": {"en":"Email Address"}},
+        "groupby": {"value":"contact","type":"hidden"},
+        "fadmin": {"value":"0","type":"hidden"},
+        "title": {"value":"Email","type":"hidden"},
+        "category":{"value":"contact","type":"hidden"}
+        },
+    "icon":"common-images/printing/emailicon.png",
+    "title":{"en":"Email"},
+    "description":{"en":"Set The Email Address "}
+}

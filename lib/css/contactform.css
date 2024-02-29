@@ -1,0 +1,30 @@
+.contactform
+{
+background-color:whitesmoke;
+background-repeat:repeat;
+text-align:left;
+padding:1em;
+width:36em;
+color:black;
+}
+
+.contactform input, .contactform textarea, .contactform label
+{
+margin-bottom:1em;
+}
+
+.contactform .inputfield,.contactform label
+{
+width:100%;
+display:block;
+}
+
+.contactform .error
+{
+color:red;
+}
+
+.contactform .contactformtitle
+{
+display:none;
+}

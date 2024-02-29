@@ -1,0 +1,11 @@
+#undercon
+{
+    width:6em;height:6em;
+    background-image:url(/lib/common-images/undercon.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:13em;
+    left:10em;
+}
+

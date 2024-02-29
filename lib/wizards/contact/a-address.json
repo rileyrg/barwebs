@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "description":{"value":"@contact:address","label": {"en":"Postal Address"}},
+        "groupby": {"value":"contact","type":"hidden"},
+        "fadmin": {"value":"0","type":"hidden"},
+        "title": {"value":"Address","type":"hidden"},
+        "category":{"value":"contact","type":"hidden"}
+        },
+    "icon":"common-images/printing/addressicon.png",
+    "title":{"en":"Address"},
+    "description":{"en":"Set The Postal Address"}
+}

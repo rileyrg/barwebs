@@ -1,0 +1,8 @@
+#!/bin/bash
+pwd
+userprefix=${1-${BARWEBS_DBPREFIX}}
+read -r uid pwd dbname  rest < <(head -1 db/authinfo)
+mysql -f -u ${userprefix}${uid} -p${pwd} ${userprefix}${dbname} <  ${BARWEBS_DIR}/lib/web-db-update.sql
+
+
+

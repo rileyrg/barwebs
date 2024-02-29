@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "setting":{"value":"@og:latlong","label": {"en":"Lat,Long"}},
+        "groupby": {"value":"opengraph","type":"hidden"},
+        "category": {"value":"settings","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/opengraph.png",
+    "title":{"en":"OpenGraph Lat/Long"},
+    "help":{"url":"https://support.google.com/maps/answer/18539?hl=en","sample":"e.g : 53.5573002,9.9713983"},
+    "description":{"en":"Set OG lat/long coords"}
+}

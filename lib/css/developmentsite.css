@@ -1,0 +1,10 @@
+#developmentsite
+{
+ background-image:url("/lib/common-images/developmentsite/developmentsite.png");
+ background-size:100%;
+ position:fixed;
+ width:3em;
+ height:3em;
+ top:30em;
+ left:1em;
+}

@@ -1,0 +1,21 @@
+#hosting
+{
+    position:fixed;
+    bottom:1em;
+    right:1em;
+    border-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+#hosting div
+{
+    width:6em;
+    height:3em;
+    background-image:url(/lib/common-images/hosting/logo-hostgator.png);
+    background-size:100%;
+}
+#hosting a
+{
+margin:0.5em;
+}
+

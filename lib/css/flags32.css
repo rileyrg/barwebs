@@ -1,0 +1,31 @@
+
+.flag
+{
+    background-image:url("common-images/icons/flags32.png");
+    width:32px;
+    height:32px;
+    cursor:pointer;
+    background-repeat:no-repeat;
+    padding:0;
+    margin:0.1em;
+}
+
+.en
+{
+background-position:0 0;
+}
+
+.de
+{
+background-position:-32px 0;
+}
+
+.da
+{
+background-position:-64px 0;
+}
+
+.fr
+{
+background-position:-96px 0;
+}

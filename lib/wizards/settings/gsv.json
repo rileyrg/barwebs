@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "setting":{"value":"@google:site-verification","label": {"en":"Site Verification Code"}},
+        "groupby": {"value":"google","type":"hidden"},
+        "category": {"value":"settings","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/google.png",
+    "optional":"false",
+    "title":{"en":"Google Site Verification"},
+    "description":{"en":"Verification code from Google WebMaster tools"}
+}

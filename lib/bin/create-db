@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ -e db/authinfo ]
+then
+	read -r uid pwd dbname  rest < <(head -1 db/authinfo)
+	echo "Attempting to create ${dbname} on localhost..."
+	mysql -uroot -p -e "create database if not exists ${dbname} ; use ${dbname}; CREATE USER '${uid}'@'localhost' IDENTIFIED BY '${pwd}'; GRANT ALL PRIVILEGES ON  ${dbname}.* TO '${uid}'@'localhost' with GRANT OPTION;CREATE USER '${uid}'@'%' IDENTIFIED BY '${pwd}';GRANT ALL PRIVILEGES ON ${dbname}.* TO '${uid}'@'%' with GRANT OPTION;"
+	echo "Importing  ${dbname} on localhost..."
+	mysql -u${uid} -p${pwd} ${dbname} < lib/templates/db.sql
+else
+	echo "no authinfo file found"
+fi
+
+
+

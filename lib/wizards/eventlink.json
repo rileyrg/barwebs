@@ -1,0 +1,13 @@
+{
+    "fields" : {
+        "title":{"label": {"en":"Link Title"},"validation":{"minlength":"12","required":""}},
+        "description":{"value":"Click to see more","label": {"en":"Link Details"}},
+        "eventlink":{"label": {"en":"Link URL"},"validation":{"type":"url","required":""}},
+        "cssclass":{"type":"hidden","value":"link"},
+        "mdtype":{"type":"hidden","value":"http://schema.org/WebPage"},
+        "image":{"label": {"en":"Icon"},"value":"common-images/icons/link.png"}
+    },
+    "icon":"common-images/adminmode/wizards/link.png",
+    "title":{"en":"Link"},
+    "description":{"en":"Add a link to another page"}
+}

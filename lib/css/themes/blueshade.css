@@ -1,0 +1,29 @@
+body
+{
+background-color:#00008b;
+}
+
+.event,.shaded
+{
+    background-image:url("/lib/common-images/bg/transparent/blue25.png");
+}
+
+.embeddedlist .event
+{
+    background-image:url("/lib/common-images/bg/transparent/white10.png");
+}
+
+.barwebs-fblogincontainer
+{
+    background-image:url("/lib/common-images/bg/transparent/blue25.png");
+}
+
+.event .title
+{
+    background-image:none;
+}
+
+.centercontainer > .eventgroup > .event > .title
+{
+    background-image:none;
+}

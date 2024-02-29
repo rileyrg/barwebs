@@ -1,0 +1,156 @@
+.facebook
+{
+    background-image:url(/lib/common-images/facebookapp.png);
+    background-position:1em 1em;
+}
+
+.commentContent .fbFeedbackPost .postText
+{
+    color:black;
+}
+
+.fbaction
+{
+    display:inline-block;
+    cursor:pointer;
+}
+
+.embeddedlist .fbaction
+{
+    display:none;
+}
+
+
+.barwebs-fblogincontainer
+{
+    clear:left;
+    text-align:center;
+    display:inline-block;
+    padding:0.5em;
+    -moz-border-radius: 0.5em; /* Firefox */  
+    -webkit-border-radius: 0.5em; /* Safari, Chrome */  
+    border-radius: 0.5em; /* CSS3 */  
+    background-repeat: repeat;
+    background-size:100% 100%;
+    margin:0 auto;
+}
+
+.printing .barwebs-fblogincontainer
+{
+    display:none;
+}
+
+.barwebs-fblogincontainer > div
+{
+    vertical-align:middle;
+    margin:0.2em;
+    display:inline-block;
+}
+
+/* .barwebs-fblogincontainer > .barwebs-fblogin */
+/* { */
+/*     display:none; */
+/* } */
+
+div > .fbadminlink
+{
+    width:3em;
+}
+
+
+
+.fbactiontitle
+{
+    display:none;
+}
+
+.fbcomments .fb_iframe_widget
+{
+    background-color:white;
+}
+
+.fbactivity
+{
+    clear:both;
+    display:block;
+}
+
+
+.fbuserimg{
+    width:100%;
+    vertical-align:middle;
+}
+
+.normalmode .displayafterfbloaded
+{
+visibility:hidden;
+}
+
+.barwebsshare
+{
+    padding:0;
+    margin:0;
+    width:100%;
+    background-image:none;
+    position:absolute;
+    top:-24px;
+    opacity: .2;
+    filter: alpha(opacity=20);
+    display:block;
+    text-align:center;
+}
+
+.barwebsshare > div
+{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.barwebsshare > .addtocal
+{
+    visibility:hidden;
+}
+
+.barwebsshare .addthisshare
+{
+    min-width:120px;
+}
+
+.event:hover > .barwebsshare > .addtocal
+{
+visibility:visible;
+}
+
+
+.findusonfacebook,.registeronfacebook
+{
+    width:8em;
+    height:auto;
+    margin:0 auto;
+    display:none;
+    cursor:pointer;
+}
+
+.findusonfacebook img,.registeronfacebook img
+{
+    max-width:100%;
+    height:auto;
+}
+
+.barwebs-fblogincontainer > .likeusonfacebook
+{
+width:161px;
+height:86px;
+text-decoration:blink;
+}
+
+.eventgroup .shareable
+{
+margin-top:26px;
+}
+
+.normalmode .whennotliked,.normalmode .whenliked
+{
+display:none;
+}
+

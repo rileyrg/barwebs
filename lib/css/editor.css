@@ -1,0 +1,194 @@
+.editortemplate
+{
+display:none;
+}
+
+.editor
+{
+font-size:small;
+}
+.editor ol,.editor ul
+{
+    display:block;
+}
+
+.editor label,.editor select,.editor div,.editor a
+{
+color:black;
+}
+
+.togglehelppane > div
+{
+display:inline-block;
+}
+
+.togglehelppane img,.togglehelppane div
+{
+display:inline-block;
+}
+
+.editor .chkgroup
+{
+display:inline-block;
+}
+
+.togglehelpchk label
+{
+text-decoration:bold;
+}
+
+.clearedit
+{
+    background-position:-992px 0;
+}
+
+.googlebutton
+{
+    background-position:-1024px 0;
+}
+
+
+.ui-dialog-buttonset .ui-state-default .ui-icon-save
+{
+   background-image:url(/lib/common-images/adminmode/editor/save.png);
+}
+
+.ui-dialog-buttonset .ui-state-default .ui-icon-close
+{
+   background-image:url(/lib/common-images/adminmode/editor/close.png);
+}
+.ui-dialog-buttonset .ui-state-default .ui-icon-previous
+{
+   background-image:url(/lib/common-images/adminmode/editor/prev.png);
+}
+.ui-dialog-buttonset .ui-state-default .ui-icon-next
+{
+   background-image:url(/lib/common-images/adminmode/editor/next.png);
+}
+.ui-dialog-buttonset .ui-state-default .ui-icon-reset
+{
+   background-image:url(/lib/common-images/adminmode/editor/reset.png);
+}
+
+
+
+.editor label
+{
+display:block;
+text-align:left;
+}
+
+.editor input[type=text],.editor .msgtext
+{
+width:80%;
+}
+
+.editor input,.editor .msgtext,.editor select
+{
+margin:0.1em;
+}
+
+.editor .msgtext
+{
+height: 5em;
+}
+
+.editor .selectwidgetdropdown
+{
+    background-color:white;
+    color:black;
+}
+
+
+.editorhelppane,.editorpane
+{
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+    margin-bottom:1em;
+}
+
+.editor .editorpane
+{
+   text-align:left;
+}
+
+.editorhelppane,.editorpane,.editorthelppane
+{
+display:none;
+padding:0.2em;
+}
+
+.editorhelppane
+{
+min-height:5em;
+padding:1em;
+color:black;
+}
+
+.advancedchk,.basicchk,.hlpchk
+{
+font-size:small;
+font-family:mono;
+display:inline-block;
+padding:0.5em;
+}
+
+.hlpchk
+{
+background-image:url(/lib/common-images/adminmode/editor/editorhelpchkbg.png);;
+color:white;
+}
+
+ui-dialog-buttonset .editorsavebutton,ui-dialog-buttonset .editorresetbutton
+{
+margin-left:2em;
+}
+
+.editor .imgpreview
+{
+width:8em;
+padding:1em;
+border-style:dotted;
+border-color:gold;
+border-width:1px;
+background-color:grey;
+}
+
+.editor  input.id[type=text]
+{
+width:5em;
+}
+
+.imgpreview img
+{
+width:100%;
+}
+
+.editmod
+{
+display:inline-block;
+}
+
+.guard
+{
+width:32em;
+}
+
+.eventfieldedit input.startdate
+{
+width:16em;
+}
+
+.multilingual
+{
+width:64px;
+height:10px;
+background-image:url(common-images/adminmode/multilingual.png);
+}
+
+.editorcontainer .languageflags
+{
+display:inline-block;
+}
+

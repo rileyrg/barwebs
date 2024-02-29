@@ -1,0 +1,27 @@
+RewriteEngine on
+
+Options +FollowSymlinks +MultiViews
+
+RewriteRule ^db/ /404.php [R=301,L]
+
+# ErrorDocument 404 "Illegal file access. Please check your URL carefully."
+ErrorDocument 404 /lib/php/404.php
+RewriteRule ^404  404.php
+
+RewriteRule ^$ /index    [R=301,L]
+RewriteRule ^(.+)/$  /$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [NC]
+RewriteRule .* - [L]
+
+RewriteRule ^([^/]*)\.(js|css|php)$ /lib/$2/$1.$2 [L]
+
+RewriteRule ^(.*)\.js$ /lib/js/$1.js [L]
+
+RewriteRule ^([^/]*)\.(jpe?g|png|gif)$ /lib/common-images/$1.$2 [L]
+
+RewriteRule ^common-images/(.*)\.(jpe?g|png|gif)$$ /lib/common-images/$1.$2 [L]
+
+RewriteRule ^([^/]*)$ /lib/php/genpage.php?page=$1  [L,NC,QSA]
+
+RewriteRule (.*).ics $1\.php

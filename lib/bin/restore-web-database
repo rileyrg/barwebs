@@ -1,0 +1,12 @@
+#!/bin/bash
+BARWEBS_DIR=${BARWEBS_DIR:-$HOME/barwebs}
+userprefix=${1-${BARWEBS_DBPREFIX}}
+[ -a db/backups ] || mkdir db/backups
+read -r uid pwd dbname  rest < <(head -1 db/authinfo)
+if [ -e "db/backups/db-backup.sql" ]
+then
+    echo "Restoring DB for `pwd`"
+    mysql -u ${userprefix}${uid} -p${pwd} < db/backups/db-backup.sql
+else
+    echo "No DB back found in `pwd`"
+fi

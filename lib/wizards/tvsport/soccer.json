@@ -1,0 +1,17 @@
+{
+    "fields" : {
+        "title":{"label": {"en":"Who is playing?"},"validation":{"minlength":"12","required":""}},
+        "description":{"value":"Live TV Football","label": {"en":"What competition?"}},
+        "startdate":{"label": {"en":"Kickoff?"},"validation":{"required":""}},
+        "duration":{"type":"hidden","value":"1:45"},
+        "cssclass":{"type":"hidden","value":"soccer"},
+        "category":{"type":"hidden","value":"data-tvsport"},
+        "groupby":{"type":"hidden","value":"schedule"},
+        "mdtype":{"type":"hidden","value":"http://schema.org/SportsEvent"},
+        "image":{"validation":{"required":"","type":"url"},"value":"http://","label": {"en":"Team Picture"}}
+        },
+    "icon":"common-images/adminmode/wizards/soccer.png",
+    "help":{"url":"http://www.bbc.co.uk/sport/football/fixtures","sample":"e.g Man U v Man City"},
+    "title":{"en":"Soccer"},
+    "description":{"en":"Add a new football game"}
+}

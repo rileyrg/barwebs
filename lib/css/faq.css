@@ -1,0 +1,35 @@
+
+.faqcontainer
+{
+margin:0 auto;
+}
+
+.faq,.faqclose
+{
+background-image:url("/lib/common-images/faq.png");
+background-position:center center;
+background-size:100%;
+width:9em;
+height:4.5em;
+overflow:visible;
+margin:0 auto;
+cursor:pointer;
+}
+
+.faqclose
+{
+background-image:url("/lib/common-images/faqclose.png");
+display:none;
+}
+
+.faqpopup
+{
+margin:0 auto;
+width:32em;
+height:10em;
+display:none;
+background-color:white;
+color:black;
+overflow:scroll;
+padding:1em;
+}

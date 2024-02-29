@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "description":{"validation":{"minlength":"24","maxlength":"80"},"value":"@web:h1title","label": {"en":"Page <H1> Title"}},
+        "groupby": {"value":"web","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/google.png",
+    "title":{"en":"H1 title"},
+    "help":{"url":"http://moz.com/community/q/why-should-your-title-and-h1-tag-be-different","sample":"e.g This page contains photos of Ireland"},
+    "description":{"en":"Set The Page H1 title"},
+    "refreshonsave":"true"
+}

@@ -1,0 +1,17 @@
+{
+    "fields" : {
+        "title":{"label": {"en":"Who is playing?"},"validation":{"minlength":"12","required":""}},
+        "description": {"value":"Live Rugby Game","label": {"en":"What competition?"}},
+        "startdate":{"label": {"en":"Kickoff?"},"validation":{"required":""}},
+        "duration":{"type":"hidden","value":"1:30"},
+        "cssclass":{"type":"hidden","value":"rugby"},
+        "groupby":{"type":"hidden","value":"schedule"},
+        "mdtype":{"type":"hidden","value":"http://schema.org/SportsEvent"},
+        "category":{"type":"hidden","value":"data-tvsport"},
+        "image":{"value":"common-images/icons/sport/rugby.png","type":"imageurl","label": {"en":"Team Picture"},"validation":{"required":""}}
+    },
+    "icon":"common-images/adminmode/wizards/rugby.png",
+    "help":{"url":"http://www.bbc.co.uk/sport/rugby-union/fixtures","sample":"e.g Leinster v Leicester"},
+    "title": {"en": "Rugby"},
+    "description":{"en":"Add a new rugby game"}
+}

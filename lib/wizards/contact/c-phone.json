@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "setting":{"value":"@contact:phone","label": {"en":"Phone Number"}},
+        "groupby": {"value":"contact","type":"hidden"},
+        "fadmin": {"value":"0","type":"hidden"},
+        "title": {"value":"Phone","type":"hidden"},
+        "category":{"value":"contact","type":"hidden"}
+        },
+    "icon":"common-images/printing/phoneicon.png",
+    "title":{"en":"Phone"},
+    "description":{"en":"Set The Telephone Number"}
+}

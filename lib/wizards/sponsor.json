@@ -1,0 +1,15 @@
+{
+    "fields" : {
+        "title":{"label": {"en":"Who is sponsoring you?"},"validation":{"minlength":"12","required":""}},
+        "description":{"value":"Sponsor details here","label": {"en":"About The Sponsor"}},
+        "eventlink":{"label": {"en":"Sponsor Link"},"validation":{"type":"url","required":""}},
+        "groupby":{"type":"hidden","value":"sponsor"},
+        "category":{"type":"hidden","value":"data-sponsor"},
+        "cssclass":{"type":"hidden","value":"sponsor icon128 three nomobile"},
+        "mdtype":{"type":"hidden","value":"http://schema.org/LocalBusiness"},
+        "image":{"value":"common-images/icons/sponsor.png","label": {"en":"Logo"}}
+    },
+    "icon":"common-images/adminmode/wizards/sponsor.png",
+    "title":{"en": "Sponsor"},
+    "description":{"en":"Add a Sponsor link"}
+}

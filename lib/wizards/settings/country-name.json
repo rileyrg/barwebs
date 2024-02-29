@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "setting":{"value":"@og:country-name","label": {"en":"Country-Name code"}},
+        "groupby": {"value":"opengraph","type":"hidden"},
+        "category": {"value":"settings","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/opengraph.png",
+    "title":{"en":"OpenGraph Country-Name"},
+    "help":{"url":"http://www.ukwda.org/blog/facebook-open-graph-meta-tags","sample":"e.g Germany"},
+    "description":{"en":"The name of the Country"}
+}

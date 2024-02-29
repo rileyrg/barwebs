@@ -1,0 +1,16 @@
+{
+    "fields" : {
+        "title":{"label": {"en":"Video Title"},"validation":{"minlength":"12","required":""}},
+        "description":{"value":"YouTube Video","label": {"en":"Video description?"}},
+        "embed":{"label": {"en":"Paste Embedded Video"},"validation":{"minlength":"64","required":""}},
+        "mdtype":{"type":"hidden","value":"http://schema.org/VideoObject"},
+        "groupby":{"type":"hidden","value":"videos"},
+        "cssclass":{"type":"hidden","value":"youtube video"},
+        "category":{"type":"hidden","value":"*"},
+        "image":{"type":"hidden","value":"common-images/icons/youtube.png"}
+
+    },
+    "icon":"common-images/adminmode/wizards/youtube.png",
+    "title":{"en":"YouTube"},
+    "description":{"en":"Add a new embedded YouTube video"}
+}

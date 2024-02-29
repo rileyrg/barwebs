@@ -1,0 +1,19 @@
+#!/bin/bash
+BARWEBS_DIR="${BARWEBS_DIR:-${HOME:-/home2/rileyrg}/barwebs}"
+for dir in "$BARWEBS_DIR"/*/
+do
+    if [[  $(basename "$dir") != "template" ]]
+    then
+	cd "$dir"
+	if [ -e "db" ]
+	then
+	    echo "Backing up database in $dir"
+	    backup-web-database  "$2"
+	fi
+    fi
+done
+if [ "$1" = "push" ]; then
+    cd "$BARWEBS_DIR"
+    git commit -a -m "webs database back (`date`)"
+    git push
+fi

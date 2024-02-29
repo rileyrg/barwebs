@@ -1,0 +1,8 @@
+#!/bin/bash
+[ -a db/backups ] || mkdir db/backups
+read -r uid pwd dbname  rest < <(head -1 db/authinfo)
+userprefix="${1:-rileyrg_}";
+userid="${userprefix}""${uid}"
+db="${userprefix}${dbname}";
+echo "DB instance:${db}", "User:${userid}";
+mysqldump --skip-lock-tables -u"${userid}" -p"${pwd}" --databases "${db}"  > db/backups/db-backup.sql

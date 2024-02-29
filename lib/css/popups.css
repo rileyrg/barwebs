@@ -1,0 +1,90 @@
+.notmobilemode .visiblepopup
+ {
+     position:absolute;
+     border-style:outset;
+     border-width:2px;
+     border-color:gold;
+     background-image:none;
+     background-color:whitesmoke;
+     font-size: 12pt;
+     text-shadow: 0.1em 0.1em 0.2em grey;
+     z-index:5;
+     margin:0 auto;
+ }
+
+.cookieprotected,.cookieprotected.containsembeddedlist
+ {
+     background-image:none;
+     display:none;
+ }
+
+li.visiblepopup,li.visiblepopup.containsembeddedlist
+                  {
+                      display:block;
+                      width:20em;
+                  }
+
+.adminmode .cookieprotected,.adminmode .cookieprotected.containsembeddedlist
+ {
+     display:none;
+ }
+
+.notmobilemode .cookieprotected .title a{
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    color:gold;
+    font-size:140%;
+}
+
+.notmobilemode .visiblepopup div,.notmobilemode .visiblepopup  a,.notmobilemode .visiblepopup .description
+ {
+     color:black;
+ }
+
+.mobilemode .visiblepopup
+ {
+     margin:0 auto;
+ }
+
+.notmobilemode .cookieprotected
+ {
+     top:10em;
+     left:50%;
+ }
+
+.mobilemode .cookieprotected  .barwebsshare
+ {
+     display:none;
+ }
+
+.notmobilemode .previewpopup
+ {
+     left:-8em;
+     top:-12em;
+ }
+
+.visiblepopup .eventicon
+ {
+     display:block;
+     width:80%;
+     margin:0 auto;
+ }
+
+#cookiesdialog
+    {
+        height:15em;
+        word-wrap:break-word;
+        display:block;
+        overflow:hidden;
+    }
+
+.cookieprotected .info,.eventpopup .info
+ {
+     position:absolute;
+     top:-24px;
+     right:-24px;
+ }
+.cookieprotected .hidebutton,.eventpopup .hidebutton
+ {
+     font-size:small;
+ }
+

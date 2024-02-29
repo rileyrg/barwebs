@@ -1,0 +1,23 @@
+#barwebslink
+{
+    position:fixed;
+    bottom:1em;
+    left:1em;
+    border-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+#barwebslink div
+{
+    width:4em;
+    height:3.5em;
+    background-image:url("http://barwebs.com/common-images/barwebs.png");
+    background-size:100%;
+}
+
+#barwebslink a
+{
+margin:0.5em;
+}

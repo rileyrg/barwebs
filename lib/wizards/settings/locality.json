@@ -1,0 +1,11 @@
+{
+    "fields" : {
+        "setting":{"value":"@og:locality","label": {"en":"Locality code"}},
+        "groupby": {"value":"opengraph","type":"hidden"},
+        "category": {"value":"settings","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/opengraph.png",
+    "title":{"en":"OpenGraph Locality"},
+    "description":{"en":"Geo code for OpenGraph locality"}
+}

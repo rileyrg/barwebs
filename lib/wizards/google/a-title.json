@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "description":{"validation":{"minlength":"16","maxlength":"70"},"value":"@web:title","refresh":".h1title","label": {"en":"Page Title"}},
+        "groupby": {"value":"web","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/google.png",
+    "title":{"en":"Title"},
+    "help":{"url":"http://moz.com/learn/seo/title-tag","sample":"The English tab title for this page"},
+    "description":{"en":"Set The Page Title"},
+    "refreshonsave":"true"
+}

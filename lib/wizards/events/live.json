@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "title": {"label": {"en": "Whats going on?"},"validation":{"minlength":"12","required":""}},
+        "description": {"value": "","label": {"en": "Describe the gig/party?"},"validation":{"minlength":"32","required":""}},
+        "eventlink": {"value": "","label": {"en": "External page (optional)"},"validation":{"type":"url"}},
+        "startdate": {"label": {"en": "Starts?"},"validation":{"required":""}},
+        "duration": {"type": "hidden","value": "3:0"},
+        "category": {"type": "hidden","value": "data-gigs"},
+        "groupby": {"type": "hidden","value": "scheduled"},
+        "cssclass": {"type": "hidden","value": "livemusic countdown mobileimage"},
+        "image": {"value": "","label": {"en": "Picture URL"},"validation":{"required":""}}
+    },
+    "icon": "common-images/adminmode/wizards/live.png",
+    "title": {"en": "Music/Party"},
+    "description": {"en": "Music/Party"}
+}

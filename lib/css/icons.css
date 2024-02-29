@@ -1,0 +1,19 @@
+@import url("icons32.css"); 
+@import url("flags32.css"); 
+
+.close3d
+{
+background-image:url(common-images/icons/close.png);
+width:48px;
+height:43px;
+position:absolute;
+top:-22px;
+right:-24px;
+}
+
+.info
+{
+background-image:url(common-images/icons/info.png);
+width:48px;
+height:48px;
+}

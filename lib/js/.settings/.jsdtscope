@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="jquery-ui/development-bundle/|jquery-ui/development-bundle/demos/datepicker/|connect-js/src/strings/|jquery-validate/|datetimepicker/|jquery-ui/development-bundle/external/|connect-js/src/third-party/|connect-js/src/compat/|jquery.icalendar/|jquery-ui/development-bundle/ui/|connect-js/src/data/|connect-js/tests/js/|jquery.addtocalendar/|external/|connect-js/src/xfbml/tags/|connect-js/src/xfbml/|jquery-ui/js/|jquery-ui/development-bundle/ui/minified/i18n/|jquery-ui/development-bundle/ui/minified/|jquery-ui/development-bundle/ui/i18n/|migrate/|jquery-cookie/|jquery.addtocalendar/libs/|jquery-countdown/|connect-js/tests/|connect-js/src/core/|connect-js/console/|connect-js/src/common/|connect-js/src/meta/" kind="src" path=""/>
+	<classpathentry kind="src" path="connect-js/console"/>
+	<classpathentry kind="src" path="connect-js/src/common"/>
+	<classpathentry kind="src" path="connect-js/src/compat"/>
+	<classpathentry kind="src" path="connect-js/src/core"/>
+	<classpathentry kind="src" path="connect-js/src/data"/>
+	<classpathentry kind="src" path="connect-js/src/meta"/>
+	<classpathentry kind="src" path="connect-js/src/strings"/>
+	<classpathentry kind="src" path="connect-js/src/third-party"/>
+	<classpathentry excluding="tags/" kind="src" path="connect-js/src/xfbml"/>
+	<classpathentry kind="src" path="connect-js/src/xfbml/tags"/>
+	<classpathentry excluding="js/" kind="src" path="connect-js/tests"/>
+	<classpathentry kind="src" path="connect-js/tests/js"/>
+	<classpathentry kind="src" path="datetimepicker"/>
+	<classpathentry kind="src" path="external"/>
+	<classpathentry kind="src" path="jquery-cookie"/>
+	<classpathentry kind="src" path="jquery-countdown"/>
+	<classpathentry excluding="demos/datepicker/|external/|ui/|ui/minified/i18n/|ui/minified/|ui/i18n/" kind="src" path="jquery-ui/development-bundle"/>
+	<classpathentry kind="src" path="jquery-ui/development-bundle/demos/datepicker"/>
+	<classpathentry kind="src" path="jquery-ui/development-bundle/external"/>
+	<classpathentry excluding="minified/i18n/|minified/|i18n/" kind="src" path="jquery-ui/development-bundle/ui"/>
+	<classpathentry kind="src" path="jquery-ui/development-bundle/ui/i18n"/>
+	<classpathentry excluding="i18n/" kind="src" path="jquery-ui/development-bundle/ui/minified"/>
+	<classpathentry kind="src" path="jquery-ui/development-bundle/ui/minified/i18n"/>
+	<classpathentry kind="src" path="jquery-ui/js"/>
+	<classpathentry kind="src" path="jquery-validate"/>
+	<classpathentry excluding="libs/" kind="src" path="jquery.addtocalendar"/>
+	<classpathentry kind="src" path="jquery.addtocalendar/libs"/>
+	<classpathentry kind="src" path="jquery.icalendar"/>
+	<classpathentry kind="src" path="migrate"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

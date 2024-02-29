@@ -1,0 +1,144 @@
+.wizardmenu
+{
+    padding:1em;
+    width:12em;
+    border-style:outset;
+    border-color:grey;
+    border-width:1px;
+    position:absolute;
+    top:5em;
+    left:8em;
+    background-color:darkgreen;
+    opacity:0.5;
+    filter: alpha(opacity=50);
+}
+
+.metawizards
+{
+    display:none;
+    left:16em;
+}
+
+.wizardmenu .admindrag
+{
+    position:absolute;
+}
+
+.wizardchoicetitle
+{
+margin-top:16px;
+}
+
+.wizardchoice img
+{
+    width:80%;
+    display:block;
+    cursor:pointer;
+}
+
+.wizardmenu .important img,.wizardpage img
+{
+    opacity:1;
+    filter: alpha(opacity=100);
+}
+
+.wizardchoice, .wizardbasic, .wizardsys
+{
+    border:none;
+    margin:1%;
+    width:30%;
+    display:inline-block;
+}
+
+.wizardpage,.wizardgoogle
+{
+    width:30%;
+}
+
+.wizardlocal img,.wizardpage img
+{
+    width:60%;
+}
+
+.wizardeditor
+{
+    font-size:8pt;
+    border-style:double;
+    border-color:white;
+    border-width:1px;
+    width:48em;
+}
+
+.wizardeditor *
+{
+    color:black;
+}
+
+.wizardeditor .error
+{
+color:red;
+}
+
+.wizardicon
+{
+    width:5em;
+    margin:2em;
+}
+
+.wizardeditor .help
+{
+    text-align:left;
+    vertical-align:top;
+}
+.wizardeditor .help *
+{
+display:inline-block;
+vertical-align:middle;
+}
+
+.wizardeditorfield
+{
+    margin:1em;
+    text-align:left;
+}
+
+.wizardeditor .hidden
+{
+    display:none;
+}
+
+.wizardeditorfield label,.wizardeditorfield inputfield
+{
+    display:block;
+    vertical-align:top;
+}
+
+.wizardeditorfield .inputfield
+{
+width:80%;
+margin-left:10%;
+}
+
+
+
+.wizardmissingsetting
+{
+margin:0.5em;
+text-align:left;
+opacity:0.3;
+filter: alpha(opacity=30);
+}
+.wizardmissingsetting:hover
+{
+opacity:1;
+filter: alpha(opacity=100);
+}
+
+.wizardmissingsetting *
+{
+color:black;
+cursor:pointer;
+display:inline-block;
+vertical-align:middle;
+}
+

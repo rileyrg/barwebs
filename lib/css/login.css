@@ -1,0 +1,52 @@
+.login {
+    text-decoration:none;
+    text-shadow:1px 1px 0 #000;
+    -moz-text-shadow:1px 1px 0 #000;
+    -webkit-text-shadow:1px 1px 0 #000;
+    color:#fff;
+    position:fixed;
+    top:1em;left:1em;
+    padding:0.1em;
+    cursor:pointer;
+    width:3em;
+    height:3em;
+    background-color:transparent;
+}
+
+.login>div
+{
+    display:none;
+    background-image:url(/lib/common-images/adminmode/adminlogin.png);
+    background-size:100%;
+    width:100%;height:100%;
+}
+
+.loginform {
+    display:none;
+    width:auto;
+    z-index:2;
+    position:fixed;
+    top:3em;left:3em;
+    padding:0.2em;
+    background-repeat:repeat;
+    background-color:#454343;
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+}
+
+.loginform input[type=submit]
+{
+    width:4em;
+    height:1em;
+    padding:0.2em;
+    background-image:url(/lib/common-images/adminmode/login.png);
+    background-size:100%;
+    vertical-align:middle;
+}
+
+.loginform input[type=text]
+{
+    display:inline-block;
+    width:30%;
+}

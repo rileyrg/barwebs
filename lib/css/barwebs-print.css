@@ -1,0 +1,109 @@
+/* .header *,.eventdetails * */
+/* { */
+/* display:inline-block; */
+/* padding-right:0.1em; */
+/* } */
+
+.comingup,.addtocal,.fbcomments,.embed,.everypage,.barwebsshare ,.fbaction ,.eventicon ,  .fbcontribute, #pages,#footers,.language,.searchpane,.noprint,.barwebs-fblogincontainer
+{
+display:none;
+}
+
+body
+{
+background-color:white;
+}
+
+.eventgroup .title
+{
+text-decoration:underline;
+font-size:130%;
+}
+
+
+body,div,a,h1,h2,h3,.event,.eventgroup
+{
+color:black !important;
+background-image:none !important;
+}
+
+.messagesubmitform
+{
+display:none;
+}
+
+.noprint,.noprint *
+{
+display:none;
+}
+
+.centercontainer .eventgroup a
+{
+font-size:1em;
+}
+
+.printheader
+{
+    margin:0 auto;
+}
+
+.qrcode
+{
+display:block;
+}
+
+.contact .centercontainer
+{
+display:none;
+}
+
+
+.printheaderitem  .printheadericon
+{
+vertical-align:middle;
+padding-right:1em;
+width:3em;
+height:auto;
+}
+
+
+.printheadertitle
+{
+font-size:150%;
+text-decoration:underline;
+padding:1em;
+}
+
+.nomobilecss
+{
+display:none;
+}
+
+.addtocal
+{
+display:none;
+}
+
+.event,.specialinfo
+{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.specialinfo
+{
+    border-style: dotted;
+    position:relative;
+    left:auto;top:auto;right:auto;bottom:auto;
+    background-color:transparent;
+}
+
+.embedded .event
+{
+    border-style: none;
+}
+
+
+
+

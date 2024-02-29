@@ -1,0 +1,15 @@
+body
+{
+background-image:url(/lib/common-images/errors/error.png);
+background-repeat:repeat;
+background-color:#350000;
+height:100%;
+}
+
+.bond
+{
+background-image:url(/lib/common-images/errors/404.png);
+background-position:center center;
+background-repeat:no-repeat;
+height:100%;
+}

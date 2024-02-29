@@ -1,0 +1,11 @@
+{
+    "fields" : {
+        "description":{"validation":{"minlength":"64","maxlength":"155"},"value":"@web:description","label": {"en":"Page Description"}},
+        "groupby": {"value":"web","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/google.png",
+    "title":{"en":"Desc"},
+    "help":{"url":"http://moz.com/learn/seo/meta-description","sample":"e.g Long plain description of page for seeding google"},
+    "description":{"en":"Set The Page Description"}
+}

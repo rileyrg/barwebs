@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "title": {"label": {"en": "The special subject?"},"validation":{"minlength":"12","required":""}},
+        "description": {"value": "","label": {"en": "Description of Wiki Entry?"},"validation":{"minlength":"32","required":""}},
+        "startdate": {"label": {"en": "Quiz Starts?"},"validation":{"required":"","dateISO":""}},
+        "eventlink": {"value": "","label": {"en": "Wikipedia Link"},"validation":{"type":"url","required":""}},
+        "duration": {"type": "hidden","value": "1:45"},"category": {"type": "hidden","value": "data-pubquiz"},
+        "groupby": {"type": "hidden","value": "subject"},
+        "cssclass": {"type": "hidden","value": "specialsubject"},
+        "image": {"value": "","label": {"en": "Picture URL of subject"},"validation":{"type":"url","required":""}}
+    },
+    "icon": "common-images/adminmode/wizards/subject.png",
+    "title": {"en": "Quiz Special Subject"},
+    "autoopen":"pubquiz",
+    "description": {"en": "Add a Wikipedia link"}
+}

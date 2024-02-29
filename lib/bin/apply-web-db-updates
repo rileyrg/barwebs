@@ -1,0 +1,14 @@
+#!/bin/bash
+cd ${BARWEBS_DIR}
+git pull
+for dir in "${1:-${BARWEBS_DIR}}"/*/
+do
+    cd ${dir}
+    if [ -e "db/authinfo" ]
+    then 
+	echo "Applying DB Updates for ${dir}"
+	apply-web-db-update
+    fi
+done
+read -p "Comment out update? (y/n)?"
+[ "$REPLY" == "y" ] && sed -i '/^--/!s/^./-- &/' ${BARWEBS_DIR}/lib/web-db-update.sql

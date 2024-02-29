@@ -1,0 +1,11 @@
+{
+    "fields" : {
+        "setting":{"value":"@og:postal_code","label": {"en":"Postal_Code code"}},
+        "groupby": {"value":"opengraph","type":"hidden"},
+        "category": {"value":"settings","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/opengraph.png",
+    "title":{"en":"OpenGraph Postal_Code"},
+    "description":{"en":"Geo code for OpenGraph postalcode"}
+}

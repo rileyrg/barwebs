@@ -1,0 +1,6 @@
+#!/bin/bash
+BARWEBS_DIR="${BARWEBS_DIR:-${HOME}/barwebs}"
+cd "${BARWEBS_DIR}"
+ssh "${BARWEBS}"  'backup-web-databases push'
+git pull
+restore-web-databases

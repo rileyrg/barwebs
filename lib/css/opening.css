@@ -1,0 +1,16 @@
+#opening
+{
+    position:absolute;
+    top:3em;
+    right:3em;
+    display:none;
+}
+
+#opening div
+{
+    width:10em;
+    height:12.5em;
+    background-image:url(/common-images/opening.png);
+    background-size:100%;
+}
+

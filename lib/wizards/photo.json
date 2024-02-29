@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "title": {"label": {"en":"Photo title?"},"validation":{"minlength":"12","required":""}},
+        "description":{"label": {"en":"Description of photo?"}},
+        "image":{"value":"","label": {"en":"URL of photo"},"validation":{"type":"url","required":""}},
+        "cssclass":{"type":"hidden","value":"photo"},
+        "mdtype":{"type":"hidden","value":"http://schema.org/Photograph"}
+    },
+    "icon":"common-images/adminmode/wizards/photo.png",
+    "title":{"en":"Photo"},
+    "description":{"en":"Add a photo/image"}
+}

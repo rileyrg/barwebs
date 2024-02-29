@@ -1,0 +1,12 @@
+{
+    "fields" : {
+        "setting":{"value":"@bing:site-verification","label": {"en":"Site Verification Code"}},
+        "groupby": {"value":"bing","type":"hidden"},
+        "category": {"value":"settings","type":"hidden"},
+        "fadmin": {"value":"1","type":"hidden"}
+        },
+    "icon":"common-images/adminmode/wizards/bing.png",
+    "optional":"false",
+    "title":{"en":"Bing Site Verification"},
+    "description":{"en":"Verification code from Bing WebMaster tools"}
+}

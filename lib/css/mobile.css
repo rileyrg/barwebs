@@ -1,0 +1,84 @@
+.nomobile
+{
+display:none;
+}
+
+.mobileoff
+{
+cursor:pointer;
+}
+
+body,.centercontainer .eventgroup,.centercontainer .event, .barwebs-fblogincontainer,#wcbg,  .centercontainer
+{
+background-image:none;
+}
+
+body
+{
+font-size:24px;
+background-color: #2B1B17;
+color:white;
+}
+
+div,a,h1,h2,h3
+{
+    color:white;
+}
+.searchpane, .specialinfo
+{
+display:none;
+}
+
+ .centercontainer .containsembeddedlist
+{
+width:100%;
+}
+
+ .embeddedlistcontainer .event
+{
+width:45%;
+border-style:dotted;
+border-color:white;
+border-width:1px;
+}
+
+#pages .title a
+{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color:gold;
+    font-size:110%;
+}
+
+.containsembeddedlist > .barwebsevent > .title a
+{
+    color:white;
+    text-shadow: none;
+}
+
+
+.mobilemodetext
+{
+width:430px;
+height:70px;
+margin:0 auto;
+background-image:url(common-images/mobilemodetext.jpg);
+background-size:100%;
+}
+
+.mobilemode .barwebsshare
+{
+    top:auto;
+    display:block;
+    position:relative;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.mobilemode .eventgroup .shareable
+{
+margin-top:3px;
+}
+
+.mobilemode .title,.mobilemode .title a
+{
+ text-shadow: 0.07em 0.07em 0.2em black
+}

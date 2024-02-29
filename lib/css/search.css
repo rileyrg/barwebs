@@ -1,0 +1,36 @@
+.searchpane
+{
+    /* background-image:url("/lib/common-images/searchpanebg.png"); */
+    width:auto;
+    vertical-align: middle;
+    position:absolute; top:1em;left:1em;
+    height:2em;
+}
+.searchpane input
+{
+margin:0;vertical-align:top;
+}
+.searchicon,.clearsearchicon {
+    height:2em;width:2em;
+    display:inline-block;
+    background-image:url("/lib/common-images/search.png");
+    background-size:100%;
+}
+
+.clearsearchicon
+{
+    background-image:url("/lib/common-images/clearsearch.png");
+}
+
+.searchinput
+{
+width:10em;
+}
+
+.inactivesearch
+{
+opacity:0.3;
+filter: alpha(opacity=30);
+}
+
+
